@@ -121,4 +121,11 @@ divGoTop.onclick = () => {
     window.scrollTo(0, 0);
 }
 
+// Glopal Evints //
 
+// Open Page Work 
+let openWork = document.querySelectorAll('.open-work');
+
+if (openWork) {
+    openWork.forEach((el) => el.addEventListener('click', () => window.location.href = workLink));
+}
