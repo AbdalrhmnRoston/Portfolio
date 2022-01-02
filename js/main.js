@@ -44,14 +44,6 @@ function printTitle () {
     }, transitionPrint - transitionPrint / 2.5);
 }
 
-setTimeout(scrollAuto, 12500);
-
-// Scrooll 150Px Next Remove Class Scale In Print Title
-function scrollAuto () {
-    let eleScale = document.querySelector('.show-effect-scale');
-    eleScale === null ? window.scrollTo(0, 120) : '';
-}
-
 // Light Efects In Home //
 
 // Append Image Light Top In Page
