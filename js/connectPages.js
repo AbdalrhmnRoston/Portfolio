@@ -1,7 +1,7 @@
 
 
-let homeLink = 'http://127.0.0.1:5500/index.html';
-let workLink = 'http://127.0.0.1:5500/work.html';
+let homeLink = 'https://abdalrhmnroston.github.io/Portfolio/index.html';
+let workLink = 'https://abdalrhmnroston.github.io/Portfolio/work.html';
 
 
 
