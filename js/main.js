@@ -64,8 +64,8 @@ function openCloseLight () {
         // Scroll Window 150Px
         count++;
         // Chick If Light Is Open & Close Done 
-        count > 6 ? clearInterval(chinegLight) : '';
-    }, 100)
+        count > 10 ? clearInterval(chinegLight) : '';
+    }, 150)
     // Click In Image Light Open
     document.querySelectorAll('.home .container > img').forEach((el) => {
         el.addEventListener('click', function () {
