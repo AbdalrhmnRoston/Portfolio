@@ -129,3 +129,17 @@ let openWork = document.querySelectorAll('.open-work');
 if (openWork) {
     openWork.forEach((el) => el.addEventListener('click', () => window.location.href = workLink));
 }
+
+// Chenig Position Button "go-top" From Upon arrival Footer
+
+window.addEventListener('scroll', () => {
+    let positionSave = Math.ceil(body.offsetHeight - window.innerHeight);
+    let positionNow = Math.ceil(window.pageYOffset);
+
+    if (positionNow > positionSave - 72) {
+        divGoTop.style.bottom = '90px';
+    } else {
+        divGoTop.style.bottom = '30px';
+    }
+});
+
