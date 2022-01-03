@@ -123,6 +123,8 @@ divGoTop.onclick = () => {
 
 // Glopal Evints //
 
+let body = document.querySelector('body');
+
 // Open Page Work 
 let openWork = document.querySelectorAll('.open-work');
 
